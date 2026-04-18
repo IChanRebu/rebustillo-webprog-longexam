@@ -42,9 +42,13 @@ function ProductPage() {
 
       <section className="border-y-2 border-zinc-900 bg-zinc-50 px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
         <div className="mx-auto max-w-3xl">
-          <div className="mb-8 flex aspect-4/3 items-center justify-center rounded-[1.25rem] border-2 border-zinc-900 bg-zinc-200">
-            <div className="flex h-24 w-24 items-center justify-center border-2 border-zinc-300 bg-zinc-100 text-[11px] font-semibold uppercase tracking-[0.24em] text-zinc-500">
-              Item
+          <div className="mb-8 overflow-hidden rounded-[1.25rem] border-2 border-zinc-900 bg-zinc-200">
+            <div className="aspect-[4/3] w-full">
+              <img
+                src={product.image}
+                alt={product.title}
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
 
@@ -57,7 +61,7 @@ function ProductPage() {
           </div>
 
           <div className="mt-8 border-t-2 border-zinc-900 pt-6">
-            <Button variant="primary" className="mr-3">Add to Cart</Button>
+            <Button to="/notfound" variant="primary" className="mr-3">Add to Cart</Button>
             <Button to="/products">Back to Products</Button>
           </div>
         </div>

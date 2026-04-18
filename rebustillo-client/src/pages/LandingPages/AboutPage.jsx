@@ -1,6 +1,9 @@
 import Button from '../../components/Button';
 import logo from '../../assets/img/nubdexchange_logo.png';
-
+import grid1 from '../../assets/img/image1.jpg';
+import grid2 from '../../assets/img/image2.jpg';
+import grid3 from '../../assets/img/image3.jpg';
+import grid4 from '../../assets/img/image4.jpg';
 const AboutPage = () => {
   return (
     <div className="flex w-full flex-col gap-6">
@@ -106,17 +109,17 @@ const AboutPage = () => {
               Category Grid
             </p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="overflow-hidden rounded-[1.25rem] bg-zinc-200">
+                <img src={grid1} alt="Category sample" className="h-full w-full object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="overflow-hidden rounded-[1.25rem] bg-zinc-200">
+                <img src={grid2} alt="Category sample" className="h-full w-full object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="overflow-hidden rounded-[1.25rem] bg-zinc-200">
+                <img src={grid3} alt="Category sample" className="h-full w-full object-cover" />
               </div>
-              <div className="flex aspect-square items-center justify-center rounded-[1.25rem] bg-zinc-200">
-                <div className="h-12 w-12 border-2 border-zinc-300 bg-zinc-100" />
+              <div className="overflow-hidden rounded-[1.25rem] bg-zinc-200">
+                <img src={grid4} alt="Category sample" className="h-full w-full object-cover" />
               </div>
             </div>
             <Button to="/products" className="mt-5">View Products</Button>

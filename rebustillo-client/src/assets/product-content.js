@@ -1,3 +1,13 @@
+import totebagImage from './img/image5.jpg';
+import notesImage from './img/image2.jpg';
+import tumblerImage from './img/image4.jpg';
+import sampleImage from './img/image1.jpg';
+import wirelessImage from './img/image6.jpg';
+import hoodieImage from './img/image7.jpg';
+import deskImage from './img/image8.jpg';
+import idImage from './img/image9.jpg';
+import shirtImage from './img/image10.jpg';
+
 const products = [
   {
     name: 'campus-tote-bag',
@@ -5,6 +15,7 @@ const products = [
     category: 'Bags',
     price: 'PHP 499',
     stock: 'In stock',
+    image: totebagImage,
     content: [
       'A roomy everyday tote for books, gym clothes, chargers, and quick campus errands.',
       'Made with thick canvas, reinforced handles, and a clean monochrome print.',
@@ -17,6 +28,7 @@ const products = [
     category: 'Stationery',
     price: 'PHP 249',
     stock: 'In stock',
+    image: notesImage,
     content: [
       'A practical bundle of notebooks, sticky notes, and quick-label tabs for daily class work.',
       'The set is light, compact, and easy to keep inside a backpack or locker.',
@@ -29,6 +41,7 @@ const products = [
     category: 'Drinkware',
     price: 'PHP 599',
     stock: 'Low stock',
+    image: tumblerImage,
     content: [
       'A double-wall tumbler built for water, coffee, or tea during long school days.',
       'The matte finish keeps the look simple while the lid helps reduce spills in your bag.',
@@ -41,6 +54,7 @@ const products = [
     category: 'Tech',
     price: 'PHP 899',
     stock: 'In stock',
+    image: wirelessImage,
     content: [
       'A compact rechargeable lamp for dorm desks, night study sessions, and small workspaces.',
       'It has three brightness levels and a foldable body that stores neatly after use.',
@@ -53,6 +67,7 @@ const products = [
     category: 'Apparel',
     price: 'PHP 1,199',
     stock: 'Preorder',
+    image: hoodieImage,
     content: [
       'A soft everyday hoodie with a relaxed fit for classrooms, commute days, and weekends.',
       'The heavy cotton blend keeps structure while staying comfortable for regular wear.',
@@ -65,6 +80,7 @@ const products = [
     category: 'Workspace',
     price: 'PHP 349',
     stock: 'In stock',
+    image: deskImage,
     content: [
       'A small organizer set for pens, clips, cables, cards, and other desk essentials.',
       'The modular pieces can be arranged based on your study area or dorm table.',
@@ -77,6 +93,7 @@ const products = [
     category: 'Accessories',
     price: 'PHP 179',
     stock: 'In stock',
+    image: idImage,
     content: [
       'A durable lanyard and card holder set for IDs, access cards, and small passes.',
       'The clip is easy to detach when scanning or presenting credentials.',
@@ -84,15 +101,16 @@ const products = [
     ],
   },
   {
-    name: 'exam-week-care-pack',
-    title: 'Exam Week Care Pack',
-    category: 'Bundles',
-    price: 'PHP 399',
+    name: 'nu-shirt',
+    title: 'NU T-Shirt',
+    category: 'Apparel',
+    price: 'PHP 250',
     stock: 'In stock',
+    image: shirtImage,
     content: [
-      'A compact bundle with snacks, tabs, pens, and quick notes for busy review weeks.',
-      'Packed for convenience so students can grab one kit and focus on studying.',
-      'Ideal as a personal prep item or a small gift for classmates.',
+      'A soft, branded NU t-shirt built for class days, weekends, and campus activities.',
+      'Lightweight cotton keeps the fit comfortable while showing school spirit with a bold print.',
+      'Pairs perfectly with jeans, tracksuits, and campus-ready casual looks.',
     ],
   },
 ];
